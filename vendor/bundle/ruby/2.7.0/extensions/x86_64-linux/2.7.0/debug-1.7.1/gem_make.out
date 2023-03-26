@@ -1,0 +1,16 @@
+current directory: /home/ruth/Development/code/rails/superhero/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20230326-9713-r58ydc.rb extconf.rb
+creating Makefile
+
+current directory: /home/ruth/Development/code/rails/superhero/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/ruth/Development/code/rails/superhero/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/ruth/Development/code/rails/superhero/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230326-9713-1bqvcn2/debug
