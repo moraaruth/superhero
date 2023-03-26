@@ -1,7 +1,16 @@
 class HerosController < ApplicationController
 
     def index
-        heroes = Hero.all
-        render json: heroes
+        heros = Hero.all
+        render json: heros
     end
+
+
+    def show
+        heros = Hero.find(params[:id])
+        render json: heros
+     end
+
+
+
 end
